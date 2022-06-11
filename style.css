@@ -30,3 +30,11 @@ h5 {
   background-color: #000000;
   padding: 5%
 }
+
+.skills {
+  column-count: 2;
+  margin: 3%;
+  column-gap: 45px;
+}
+
+
