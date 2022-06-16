@@ -1,24 +1,28 @@
 body {
   background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg");
   background-position: center;
-  color: #ffffff;
-  font-family: arial, helvetica, sans-serif;
+  color: #000000;
+  font-family: helvetica, sans-serif;
   margin: 10% 20%;
 }
 
 .exp-header {
   text-align: center;
-  text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: #cccccc;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Helvetica;
+  text-transform: uppercase;
    
 }
 
 h1 {
-  color: #ff0099;
+  color: #000000;
   text-align: center;
+  font-size: 60px;
+  font-family: Helvetica;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -27,7 +31,7 @@ h5 {
 }
 
 .whole {
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 5%
 }
 
@@ -37,4 +41,43 @@ h5 {
   column-gap: 45px;
 }
 
+.avatar {
+  vertical-align: middle;
+  width: 40%;
+  border-radius: 5%;
+}
 
+.dropdown {
+  background-color: #665A57;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .dropdown:hover {
+  background-color: #ff0099;
+}
+
+.dropdown:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: 000000;
+  display: none;
+  overflow: hidden;
+}
