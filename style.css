@@ -66,6 +66,7 @@ h5 {
 .dropdown:after {
   content: '\02795'; 
   font-size: 13px;
+  background-color: #979797;
   color: #000000;
   float: right;
   margin-left: 5px;
