@@ -1,6 +1,7 @@
 body {
   background-image: url("https://wallpaperaccess.com/full/130134.jpg");
-  background-size: auto;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #000000;
