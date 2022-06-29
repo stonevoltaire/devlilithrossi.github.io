@@ -55,7 +55,7 @@ h5 {
 .dropdown {
   background-color: #4E4E4E;
   color: #000000;
-  cursor: pointer;
+  cursor: s-resize;
   padding: 18px;
   width: 100%;
   text-align: left;
@@ -69,17 +69,15 @@ h5 {
 }
 
 .dropdown:after {
-  content: '\02795'; 
+  content: '\21E9'; 
   font-size: 13px;
-  background-color: #979797;
-  color: #000000;
+  color: #FFFFFF;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796"; 
-}
+  content: "\21E7";
 
 .panel {
   padding: 0 18px;
