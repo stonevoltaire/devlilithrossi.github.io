@@ -55,7 +55,7 @@ h5 {
 .dropdown {
   background-color: #4E4E4E;
   color: #000000;
-  cursor: s-resize;
+  cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
@@ -85,4 +85,5 @@ h5 {
   background-color: 000000;
   display: none;
   overflow: hidden;
-}
+
+
